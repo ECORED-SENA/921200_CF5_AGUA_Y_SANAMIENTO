@@ -1,0 +1,66 @@
+[
+  {
+    "icon": "fa fa-home",
+    "slug": "external",
+    "title": "Volver al inicio",
+    "path": "index.html"
+  },  
+  { 
+    "id": 1,
+    "icon": "fa fa-file-text-o",
+    "slug": "reflexion",
+    "title": "1. Reflexión inicial",
+    "breadcrumb": ["Inicio","Tema 1"],
+    "path": "pages/1-tema.html"
+  },
+  { 
+    "id": 1,
+    "icon": "fa fa-file-text-o",
+    "slug": "conceptos",
+    "title": "2. Conceptos de desarrollo sostenible y educación ambiental",
+    "breadcrumb": ["Inicio","tema 2"],
+    "path": "pages/2-tema.html"
+  },
+  { 
+    "id": 1,
+    "icon": "fa fa-file-text-o",
+    "slug": "normatividad",
+    "title": "3. Normatividad nacional en educación ambiental",
+    "breadcrumb": ["Inicio","tema 3"],
+    "path": "pages/3-tema.html"
+  },
+  { 
+    "id": 1,
+    "icon": "fa fa-file-text-o",
+    "slug": "enfoque",
+    "title": "4. Enfoque diferencial de las comunidades",
+    "breadcrumb": ["Inicio","tema 3"],
+    "path": "pages/4-tema.html",    
+    "submenu": [
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "enfoque",
+        "title": "4.1 Enfoque diferencial étnico",
+        "anchor": "41"
+      },
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "enfoque",
+        "title": "4.2 Enfoque diferencial de orientaciones sexuales e identidad de género",
+        "anchor": "42"
+      },
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "enfoque",
+        "title": "4.3 Enfoque diferencial de personas en condición de discapacidad",
+        "anchor": "43"
+      },
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "enfoque",
+        "title": "4.4 Enfoque diferencial de edad",
+        "anchor": "44"
+      }
+    ]
+  }
+]
